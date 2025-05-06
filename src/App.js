@@ -41,7 +41,7 @@ function App() {
 
         <input
           className="w-full max-w-2xl mb-4 p-3 text-black rounded"
-          placeholder="歌名（必填）"
+          placeholder="歌名（必填） 輸入歌名以搜索歌詞（需要🪜）"
           value={title}
           onChange={(e) => setTitle(e.target.value)}
         />
@@ -63,7 +63,7 @@ function App() {
 
         <input
           className="w-full max-w-2xl mb-4 p-3 text-black rounded"
-          placeholder="演唱者"
+          placeholder="原唱"
           value={singer}
           onChange={(e) => setSinger(e.target.value)}
         />
