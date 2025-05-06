@@ -62,7 +62,7 @@ function App() {
 
       <textarea
         className="w-full max-w-2xl h-80 p-4 text-black rounded"
-        placeholder="請貼上歌詞（繁體）。"
+        placeholder="請貼上歌詞（繁體）"
         value={lyrics}
         onChange={(e) => setLyrics(e.target.value)}
       />
