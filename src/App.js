@@ -71,13 +71,14 @@ function App() {
         <button
           onClick={() => {
             const query = encodeURIComponent(`${title} ${singer} site:kkbox.com`);
-            window.open(`https://www.google.com/search?q=${query}`, '_blank');
+            window.open(`https://www.bing.com/search?q=${query}`, '_blank');
           }}
           className="mt-2 px-6 py-2 bg-blue-600 text-white font-semibold rounded hover:bg-blue-700 transition"
         >
-          🔍 去 KKBOX 搜索歌詞
+          🔍 去 KKBOX 搜索歌詞（必应）
         </button>
       )}
+
 
       <button
         onClick={handleGenerate}
