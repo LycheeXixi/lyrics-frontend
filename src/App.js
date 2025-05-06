@@ -38,7 +38,7 @@ function App() {
         onChange={(e) => setTitle(e.target.value)}
       />
 
-      <div className="flex gap-4 w-full max-w-2xl mb-4">
+      <div className="flex flex-col sm:flex-row gap-4 w-full max-w-2xl mb-4">
         <input
           className="flex-1 p-3 text-black rounded"
           placeholder="作詞"
