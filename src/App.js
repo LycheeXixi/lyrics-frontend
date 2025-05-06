@@ -28,8 +28,15 @@ function App() {
   };
 
   return (
-    <div className="min-h-screen bg-black text-white flex flex-col items-center p-10">
+    <div className="bg-black text-white min-h-screen">
+      {/* 顶部导航栏 */}
+      <header className="bg-black text-white w-full px-6 py-4 flex items-center shadow-md fixed top-0 left-0 z-10">
+        <img src="/logo.png" alt="logo" className="h-10 w-10 mr-3" />
+        <h2 className="text-xl font-semibold">粤球下的人</h2>
+      </header>
+
       <h1 className="text-3xl font-bold mb-6">🎤 粵語歌詞 PPT 生成器</h1>
+
 
       <input
         className="w-full max-w-2xl mb-4 p-3 text-black rounded"
